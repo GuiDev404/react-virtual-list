@@ -1,0 +1,21 @@
+:root {
+  --sky-color: #6cc9f5;
+  --flour-green: #00ff80;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #f1eeee;
+  display: grid;
+  place-items: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+*::selection {
+  background: var(--sky-color);
+  color: var(--flour-green);
+}
+
+.title {
+  text-align: center;
+}
